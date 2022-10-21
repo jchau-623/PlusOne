@@ -34,8 +34,8 @@ var plusOne = function(digits) {
 // Incrementing by one gives 9 + 1 = 10.
 // Thus, the result should be [1,0].
 
-Constraints:
+// Constraints:
 
-1 <= digits.length <= 100
-0 <= digits[i] <= 9
-digits does not contain any leading 0's.
+// 1 <= digits.length <= 100
+// 0 <= digits[i] <= 9
+// digits does not contain any leading 0's.
