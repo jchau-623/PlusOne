@@ -3,3 +3,19 @@
 // up to the target sum, the function should return them in an array, in any
 // order. If no two numbers sum up to the target sum, the function should return
 // an empty array.
+
+function twoNumberSum(array, targetSum) {
+    let ans = [];
+
+      for (let i = 0; i < array.length; i++){
+          let num1 = array[i];
+          for(let j = i + 1; j < array.length; j++){
+              let num2 = array[j];
+              if(num1 + num2 === targetSum){
+                  ans.push(num1);
+                  ans.push(num2);
+              }
+          }
+      }
+      return ans;
+  }
