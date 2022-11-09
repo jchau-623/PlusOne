@@ -2,3 +2,6 @@
 
 # The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
 
+def function(board, word): {
+    
+}
