@@ -2,6 +2,9 @@
 
 # The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
 
-def function(board, word): {
-    
-}
+def function(board, word):
+    n =len(board)
+    m = len(board[0])
+    for i in range(n):
+        for j in range(m):
+            
