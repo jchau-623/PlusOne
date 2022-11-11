@@ -7,4 +7,7 @@ def function(board, word):
     m = len(board[0])
     for i in range(n):
         for j in range(m):
-            
+
+
+
+# edge cases
