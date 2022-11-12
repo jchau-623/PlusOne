@@ -10,4 +10,3 @@ def function(board, word):
 
 
 
-# edge cases
