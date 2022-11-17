@@ -30,4 +30,3 @@ function findClosestValueInBst(tree, target) {
       this.right = null;
     }
   }
-// 
