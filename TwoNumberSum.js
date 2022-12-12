@@ -19,4 +19,16 @@ function twoNumberSum(array, targetSum) {
       }
       return ans;
   }
-// 
+
+
+const twoSum = function(nums, target) {
+    const hash = {};
+
+    for (let i = 0; i < nums.length; i++) {
+        const num = nums[i];
+        const complement = target - num;
+        if (hash[complement] !== undefined) return [i, hash[complement]]
+        hash[num] = i;
+    }
+}
+//
