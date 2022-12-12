@@ -31,4 +31,3 @@ const twoSum = function(nums, target) {
         hash[num] = i;
     }
 }
-//
