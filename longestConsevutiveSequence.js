@@ -8,7 +8,7 @@ var longestConsecutive = function(nums) {
 
     for (let i = 0; i < nums.length; i++) {
         const num = nums[i];
-        const pres = num - 1;
+        const prev = num - 1;
         let next = num + 1;
         let sequence = 1;
 
