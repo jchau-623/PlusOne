@@ -1,0 +1,47 @@
+// Initialize package management with npm init and follow the default prompts (customizing where desired). This will generate a package.json.
+
+// Install dependencies npm i:
+
+// Express - Straight forward backend framework
+// express
+// Mongoose - An Object Document Mapper
+// mongoose
+// Cors - This will help us handle Cross-Origin requests.
+// cors
+// Request - Lets us make HTTP requests in VSCode.
+// request
+// INSTALL VSCode Extension: REST Client
+// Nodemon
+// nodemon --save-dev
+// Let's configure our package.json with a few start scripts. We will also add a type flag to allow ES6 modules. This will allow us to use modern import statements rather than require() throughout:
+
+// // /package.json
+//    // ...
+//    "type": "module",
+//    "scripts": {
+//        // ...
+//        "start": "node index.js",
+//        "start:dev": "nodemon --inspect index.js",
+//        // ...
+//    },
+//    //  ...
+// Create a foundational file structure in our root directory.
+
+// .gitignore - include /node_modules
+// index.js
+// Now that we are all set up, let's configure our server using express in our index.js. This is exceedingly simple, which is why I love Express.
+
+// // /index.js
+// import express from "express";
+
+// // express is a function imported from the `express` module. here invoke `express` with no arguments, setting it's return equal to an arbitrary value `app`.
+// const app = express();
+
+// // we then declare a port value, i chose 5001.
+// const port = process.env.PORT || 5001;
+
+// // finally let's use the `listen` function provided by our `app` instance. this function, when invoked with a port and callback function, will maintain an open connection to your new server.
+// app.listen(port, () => console.log(`Server is running on port ${port}`));
+// (NB: There is nothing special about app, it is simply the return value of the express function. Since this return value of express is just JavaScript, console.dir(app) and see what's happening under the hood.)
+
+// After completing the code above, let's spin up our server with start:dev. Server is running on port 5001 should now appear in the console. See, easy!
