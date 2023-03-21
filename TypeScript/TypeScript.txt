@@ -1,0 +1,12 @@
+What is TypeScript?
+    - A programming language to address the shortcomings of JavaScript
+Benefits
+    - Static typing
+    - Code completion
+    - Refactoring
+    - Shorthand notations
+Two types of programming languages
+    - Statically-typed (C++, C#, Java) vs Dynamically-typed (JavaScript, Python, Ruby)
+Setting up the Development Environment
+    npm i -g typescript
+    
