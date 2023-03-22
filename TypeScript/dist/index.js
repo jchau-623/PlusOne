@@ -1,4 +1,6 @@
 "use strict";
-console.log('hello world');
-let age = 20;
+let numbers = [];
+numbers[0] = 1;
+numbers[1] = '1';
+let user = [1, 'Mosh'];
 //# sourceMappingURL=index.js.map

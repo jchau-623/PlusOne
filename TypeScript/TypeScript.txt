@@ -9,4 +9,10 @@ Two types of programming languages
     - Statically-typed (C++, C#, Java) vs Dynamically-typed (JavaScript, Python, Ruby)
 Setting up the Development Environment
     npm i -g typescript
-    
+JavaScript      TypeScript
+-number         -any
+-string         -unknown
+-boolean        -never
+-null           -enum
+-undefined      -tuple
+-object
