@@ -16,3 +16,5 @@ JavaScript      TypeScript
 -null           -enum
 -undefined      -tuple
 -object
+
+Enums represent a list of related constants

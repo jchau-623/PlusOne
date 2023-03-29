@@ -1,6 +1,5 @@
 "use strict";
-let numbers = [];
-numbers[0] = 1;
-numbers[1] = '1';
-let user = [1, 'Mosh'];
+;
+let mySize = 2;
+console.log(mySize);
 //# sourceMappingURL=index.js.map
