@@ -50,14 +50,14 @@
 //     retire: (date: Date) => {
 //     console.log(date)
 //     }
-"use strict"
-function kgToLbs(weight:number | string): number {
-    // weight.toString
-    if (typeof weight === 'number') {
-        return weight * 2.2
-    }
-    else
-        return parseInt(weight) * 2.2
-}
-console.log(kgToLbs(10))
-console.log(kgToLbs('10kg'))
+// "use strict"
+// function kgToLbs(weight:number | string): number {
+//     // weight.toString
+//     if (typeof weight === 'number') {
+//         return weight * 2.2
+//     }
+//     else
+//         return parseInt(weight) * 2.2
+// }
+// console.log(kgToLbs(10))
+// console.log(kgToLbs('10kg'))
