@@ -38,7 +38,3 @@ var isValid = function(s) {
     }
     return !expectedBrackets.length;
 }
-
-var isValid = function(s) {
-    
-}
