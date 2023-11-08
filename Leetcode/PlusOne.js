@@ -33,18 +33,28 @@
 // 0 <= digits[i] <= 9
 // digits does not contain any leading 0's.
 
-function increment(digits) {
-    let carry = 1;
+  var plusOne = function(digits) {
+    const n = digits.length;
 
-    for (let i = digits.length - 1; i >= 0; i--) {
-      let total = digits[i] + carry;
-      digits[i] = total % 10;
-      carry = Math.floor(total / 10);
-    }
+   // Start from the least significant digit
+   for (let i = n - 1; i >= 0; i--) {
+     // Increment the current digit by 1
+     digits[i]++;
 
-    if (carry > 0) {
-      digits.unshift(carry);
-    }
+     // Check for overflow
+     if (digits[i] <= 9) {
+       // If there is no overflow, we are done
+       return digits;
+     } else {
+       // Overflow, set the current digit to 0 and continue to the next digit
+       digits[i] = 0;
+     }
+   }
 
-    return digits;
-  }
+   // If we reach here, it means we had an overflow in the leftmost digit
+   // In this case, replace the first digit with 1 and add 0 to the end
+   digits[0] = 1;
+   digits.push(0);
+
+   return digits;
+ };
