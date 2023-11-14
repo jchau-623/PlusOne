@@ -38,7 +38,7 @@
 
    // Start from the least significant digit
    for (let i = n - 1; i >= 0; i--) {
-     // Increment the current digit by 1 
+     // Increment the current digit by 1
      digits[i]++;
 
      // Check for overflow
@@ -51,6 +51,7 @@
      }
    }
 
+   
    // If we reach here, it means we had an overflow in the leftmost digit
    // In this case, replace the first digit with 1 and add 0 to the end
    digits[0] = 1;
