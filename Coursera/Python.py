@@ -67,3 +67,6 @@
 # 2
 # name="John" # assigning John to variable name
 # x = 5 # assigning 5 to variable x
+
+A=(1,2,3,4,5)
+print(A[1:4])
