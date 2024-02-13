@@ -314,5 +314,3 @@ print(f"{car2.make} {car2.model} is currently at {car2.get_speed()} km/h.")
 Copied!
 Next Steps
 In conclusion, this reading provides a fundamental understanding of objects and classes in Python, essential concepts in object-oriented programming. Classes serve as blueprints for creating objects, encapsulating both data attributes and methods. Objects represent real-world entities and possess their own unique state and behavior. The structured code example presented in the reading outlines the key elements of a class, including class attributes, the constructor method for initializing instance attributes, and instance methods for defining object-specific functionality.
-
-You can apply the concepts of objects and classes in the upcoming laboratory session to gain hands-on experience.
