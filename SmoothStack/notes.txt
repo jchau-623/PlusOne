@@ -43,6 +43,3 @@ no middle layer like the Python interpreter and this is the reason why Python is
 
 
 
-Search bar functionality on Everwrite
-Pull up snippet of code and talk about it
-
