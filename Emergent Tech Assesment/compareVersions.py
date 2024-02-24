@@ -29,6 +29,7 @@ def compare_versions(version1, version2):
     parts1 += [0] * (max_length - len(parts1))
     parts2 += [0] * (max_length - len(parts2))
 
+
     # Compare each part
     for p1, p2 in zip(parts1, parts2):
         if p1 < p2:
