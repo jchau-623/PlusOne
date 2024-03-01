@@ -5,3 +5,4 @@ Play video starting at :4:28 and follow transcript4:28
 Using the to datetime function, we create readable time data, the input is the time stamp column unit of time is set to milliseconds We append the output to the new column date
 Play video starting at :4:43 and follow transcript4:43
 We. Would like to create a candle stick plot To get the data for the daily candlesticks we will group by the date to find the minimum, maximum, first, and last price of each day Finally we will use plotly to create the candlestick chart and plot it Now we can view the candlestick chart by opening the html file and clicking trust HTML in the top left of the tab It should look something like this
+\
