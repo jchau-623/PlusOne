@@ -128,4 +128,3 @@ Beautiful Soup is a powerful tool for navigating and extracting specific web pag
 
 Using pandas read_html for table extraction
 Pandas, a Python library, provides a function called read_html, which can automatically extract data from websites' tables and present it in a format suitable for analysis. It’s similar to taking a table from a webpage and importing it into a spreadsheet for further analysis.
-
