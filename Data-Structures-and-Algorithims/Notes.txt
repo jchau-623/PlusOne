@@ -1,0 +1,4 @@
+Stack follows LIFO
+Queue follows FIFO
+
+If problem talks about constantly removing previous use Stack
