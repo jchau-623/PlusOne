@@ -2,3 +2,12 @@ Stack follows LIFO
 Queue follows FIFO
 
 If problem talks about constantly removing previous use Stack
+If things need to be paired in a certain order use a stack
+
+Fixed Sliding Window
+The sliding window has left and right pointers to represent
+the boundaries of the window.
+Use a hash table or set to reduce the nested loops and
+instead replace it with a single loop
+(Reduce time complexity from O(n^2) to O(n))
+
