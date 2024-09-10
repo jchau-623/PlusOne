@@ -16,7 +16,3 @@
 
 # Input: grid = [[0,0,0,0,0,0,0,0]]
 # Output: 0
-
-class Solution:
-    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
-        
